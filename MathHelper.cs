@@ -12,12 +12,22 @@ namespace MathHelper
         {
             return a + b;
         }
-        
+        public int PrintValue(bool a ) 
+        {
+            if (a == true)
+            {
+                return 1;
+            }
+            else { return 0; }
+        }
         public void PrintValue(string a, string b)
         {
             Console.WriteLine(a + b); 
         }
-
+        public void PrintValue(int a, int b,int c)
+        {
+            Console.WriteLine(a *b*c);
+        }
 
     }
 }
